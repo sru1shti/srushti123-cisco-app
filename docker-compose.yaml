@@ -4,7 +4,7 @@ services:
     image: srushtiday41:v001  # image i want to build 
     build:  # location & name of dockerfile 
       context: . 
-      dockerfile: day4app.dockerfile
+      dockerfile: Dockerfile
     container_name: srushticontainer # after image build the container i want to create
     ports: # port forwarding 
     - 1389:80 
