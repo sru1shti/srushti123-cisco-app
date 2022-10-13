@@ -7,4 +7,4 @@ services:
       dockerfile: day4app.dockerfile
     container_name: srushticontainer # after image build the container i want to create
     ports: # port forwarding 
-    - 1589:80 
+    - 1389:80 
